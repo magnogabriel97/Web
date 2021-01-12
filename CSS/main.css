@@ -1,0 +1,123 @@
+:root {
+    --laranja: #EC4E20;
+    --verde: #1C3A13;
+    --rosa: #FEC0AA;
+    --marrom: #574F2A;
+    --fontfeia: 'Hachi Maru Pop', cursive;;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home {
+    background-color: var(--rosa);
+    height: 100vh;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    color: var(--laranja);
+    font-family: var(--fontfeia);
+    font-size: 30px;
+    justify-content: flex-start;
+}
+
+.menu-list {
+    width: 50%;
+}
+
+.menu-list ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: var(--fontfeia);
+    color: #fff;
+}
+
+.menu-list ul li:hover {
+    color: #EC4E20;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-login {
+    color: white;
+    font: var(--fontfeia);
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid var(--verde);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.btn-login:hover {
+    transition: .5s;
+    background-color:red;
+    cursor: pointer;
+}
+
+.hero {
+    height: calc(100% - 70px);
+    width: 100%;
+}
+
+.hero-text {
+    color: #fff;
+    font-family: var(--fontfeia);
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-text p {
+    font-size: 40px; 
+}
+
+.btn-hero {
+    margin-top: 30px;
+    color: red;
+    font: var(--fontfeia);
+    font-size: 20px;
+    border: 1px solid var(--verde);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+
+.btn-hero:hover {
+    transition: .5s;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+
+
+
